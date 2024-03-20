@@ -1,0 +1,18 @@
+
+<web-app>
+
+  <welcome-file-list>
+    <welcome-file>Form.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Apple</servlet-name>
+    <servlet-class>com.besant.FirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Apple</servlet-name>
+    <url-pattern> /fs </url-pattern>  
+  </servlet-mapping>
+  
+</web-app>
